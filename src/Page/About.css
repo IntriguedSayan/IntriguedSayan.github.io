@@ -1,0 +1,78 @@
+:root{
+    --color-white: #fff;
+    --color-gray: #c4c4c4;
+    --color-black: #000;
+    --color-purple: #8000ff;
+    --color-light-purple: #cf59e6;
+    --color-light-blue: #6bc5f8;
+    --color-golden:#f3ec78;
+    --color-maroon:#af4261;
+}
+
+/* .gradien{
+  background-image:linear-gradient(-45deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  
+  font-family: "Archivo Black", sans-serif;
+} */
+.headertext{
+  background-color: red;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  font-family: "Archivo Black", sans-serif;
+}
+.gradien:hover{
+    transition: 0.5s ease-in-out all;
+    background-color: red;
+    background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    font-family: "Archivo Black", sans-serif;
+}
+.abouts{
+  /* border: 4px solid var(--color-golden); */
+  /* border-radius: 13%; */
+  /* animation: spiral 5.5s infinite ease-in; */
+}
+@keyframes spiral{
+   0%{
+    border-top: 4px solid var(--color-light-purple);
+    border-top-right-radius: 13%;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 15%;
+   }
+   25%{
+    border-right:4px solid var(--color-maroon);
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    
+   }
+   50%{
+    border-bottom:4px solid var(--color-golden);
+    /* border-top-right-radius:10%;
+    border-bottom-right-radius:10%;
+    border-bottom-left-radius:10%;
+    border-top-left-radius:10%; */
+    
+   }
+   100%{
+    border-left: 4px solid var(--color-light-blue);
+    border-bottom-left-radius: 15%;
+    border-top-left-radius: 13%;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%
+   }
+}
+
+

@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box } from '@chakra-ui/react'
+import Github from './Components/GitHub'
+import Navbar from './Components/Navbar'
+import About from './Page/About'
+import Contact from './Page/Contact'
+import Projects from './Page/Projects'
+import Skills from './Page/Skills'
+import Start from './Page/Start'
+import GitStatistics from './Components/GitStatistics'
+
 
 function App() {
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Box  backgroundColor={"#1a202c"} overflowX="hidden">
+      <Navbar/>
+      <Start/>
+      <About/>
+      <Projects/>
+      <GitStatistics/>
+      <Github/>
+      <Skills/>
+      <Contact/>
+    </Box>
+        
+  )
 }
 
-export default App;
+export default App

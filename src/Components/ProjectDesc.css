@@ -1,0 +1,26 @@
+
+.title{
+   background-color: red;
+   background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.linktext{
+    display: inline-block;
+    border-bottom: 2px solid whitesmoke;
+    padding: 5px;
+    margin:7% 25% 5% 0;
+    color: white;
+}
+.linktext:hover{
+    color: white;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    transition: 0.3s ease-in-out ;
+}
+.linktext>a{
+    text-decoration: none;
+    color: white;
+}
