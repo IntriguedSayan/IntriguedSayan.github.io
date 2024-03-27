@@ -1,29 +1,32 @@
-:root{
-    --color-white: #fff;
-    --color-gray: #c4c4c4;
-    --color-black: #000;
-    --color-purple: #8000ff;
-    --color-light-purple: #cf59e6;
-    --color-light-blue: #6bc5f8;
+:root {
+  --color-white: #fff;
+  --color-gray: #c4c4c4;
+  --color-black: #000;
+  --color-purple: #8000ff;
+  --color-light-purple: #cf59e6;
+  --color-light-blue: #6bc5f8;
 }
 
-.gradien{
-  background-image:linear-gradient(-45deg,var(--color-light-blue),var(--color-light-purple),var(--color-light-blue),var(--color-light-purple));
+.gradien {
+  background-image: linear-gradient(
+    -45deg,
+    var(--color-light-blue),
+    var(--color-light-purple),
+    var(--color-light-blue),
+    var(--color-light-purple)
+  );
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  
   font-family: "Archivo Black", sans-serif;
 }
-.gradien:hover{
-    transition: 0.5s ease-in-out all;
-    background-color: red;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+.gradien:hover {
+  transition: 0.5s ease-in-out all;
+  background-color: red;
+  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  
 }
-

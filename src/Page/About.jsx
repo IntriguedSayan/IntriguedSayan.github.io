@@ -1,5 +1,5 @@
 import { Box, Flex, Image, Text } from "@chakra-ui/react";
-import sayan from "../assets/Sayan_Mukherjee_Photo.jpg"
+import sayan from "../assets/Sayan-Mukherjee-photo.jpg";
 import "./About.css"
 import { useRef } from "react";
 import TypedAnimate from "../Components/TypedAnimate";
@@ -26,7 +26,6 @@ export default function About(){
             
             
             <Box  data-aos="zoom-in" >
-                {/* <Text fontSize={{base:"x-large",md:"2xl",lg:"4xl"}} fontWeight="bold" m={{base:"3% 0 1% 5%",md:"1% 0 0 10%",lg:"2% 0 1% 25%"}} color={"white"}>Hi, I am  <span className="gradien" m={"0 1% 1% 1%"}> Sayan Mukherjee,</span> a <span m={"0 1% 1% 1%"} className="gradien"> MERN Developer.</span></Text> */}
                 <TypedAnimate/>
                 <Box  width={{base:"90%",md:"85%",lg:"55%"}} m={{base:"auto",md:"auto",lg:"1% 0 1% 25%"}}>
                 <Text fontSize={{base:"small",md:"medium",lg:"x-large"}} color="white" fontWeight={"bold"}>I am passionate Full Stack Web Developer adept at engineering robust and user centric web applications. I love to work in exciting projects and collaborating with others while being exposed to the ever evolving technology around us.</Text>

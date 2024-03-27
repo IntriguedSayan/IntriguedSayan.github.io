@@ -7,6 +7,7 @@ import Projects from './Page/Projects'
 import Skills from './Page/Skills'
 import Start from './Page/Start'
 import GitStatistics from './Components/GitStatistics'
+import TimeLine from './Page/TimeLine'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Navbar/>
       <Start/>
       <About/>
+      <TimeLine/>
       <Projects/>
       <GitStatistics/>
       <Github/>
